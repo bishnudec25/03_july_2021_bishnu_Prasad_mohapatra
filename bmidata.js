@@ -2,6 +2,7 @@ const BMI_RISK_CATEGORY = [
   { range: [0, 18.4], category: "Underweight", risk: "Malnutrition risk" },
   { range: [18.5, 24.9], category: "Normal weight", risk: "Low risk" },
   { range: [25, 29.9], category: "Overweight", risk: "Enhanced risk" },
+
   {
     range: [30, 34.9],
     category: "Moderately obese",
