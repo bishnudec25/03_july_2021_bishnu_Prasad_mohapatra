@@ -13,6 +13,7 @@ const formula_one = (p_height_incm, p_weight_inkg) =>{
     return bmi_val;
 }
 
+
 exports.bmiCalculator = (p_gender, p_height, p_weight)=>{
     const bmi_number =  formula_one(p_height, p_weight);
     const risk_category = bmidata.bmiCategory(bmi_number); 

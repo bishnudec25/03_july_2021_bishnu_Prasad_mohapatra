@@ -15,6 +15,7 @@ const BMI_RISK_CATEGORY = [
   },
 ];
 
+
 exports.bmiCategory = (p_bmi) => {
   const catagory_idx = BMI_RISK_CATEGORY.findIndex(
     (v) => p_bmi >= v.range[0] && p_bmi <= v.range[1]
